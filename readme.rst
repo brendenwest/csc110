@@ -37,18 +37,17 @@ Each week, we'll cover a different topic, building on the previous week's work. 
 1. Computer Science, Programming, Setting up Python
 #. Basics of Python programs
 #. Computing with numbers 
-#. Computing with strings & files
-#. Conditional statements & logical operators
 #. Strings & file I/O
+#. Conditional statements & logical operators
 #. Loops
-#. Lists & dictionaries
 #. Functions
+#. Data collections
 #. Objects & classes
 #. Graphics
 
 **Grading**
 
-Grades will be based on weekly assignments, 3 quizzes, and a final exam.
+Grades will be based on weekly assignments, 2 quizzes, and a final exam.
 
 Weekly assignments will be posted on Canvas each Wednesday and are designed to exercise the skills and concepts covered that week. Assignments are due by the start of class on the following Monday, and late assignments will be automatically marked down by 20%. 
 
