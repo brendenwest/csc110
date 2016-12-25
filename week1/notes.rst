@@ -1,5 +1,6 @@
-Lecture Notes
-===
+=====
+Week 1 - Intro to programming
+=====
 
 **Reading**
 
@@ -12,7 +13,7 @@ Lecture Notes
 * http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter01.ppt 
 * http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter02.ppt 
 
-** Class overview**
+**Class overview**
 
 * What is computer science?
 * Computer programming overview
