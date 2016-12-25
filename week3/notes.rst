@@ -1,6 +1,6 @@
-===
+========================
 Week 3 - Strings & Files
-===
+========================
 
 **Reading**
 
@@ -136,7 +136,7 @@ Strings can be formatted with a ‘template’ string that has placeholders into
     <filevar> = open(<filename>, <mode>)
     myFile = open('myfile.txt', 'r')
 
-* Reading - after opening a file, you can read file contents with several different commands:
+* Reading: after opening a file, you can read file contents with several different commands:
     - file.read() - reads entire file into a string
     - file.readlines() - returns the entire file into a list of lines
     - file.readline() - reads the next line as a string. Moves ‘pointer’ so subsequent commands operate only on remaining lines.
