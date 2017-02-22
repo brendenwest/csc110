@@ -5,7 +5,7 @@ CSC 110 - Intro to Programming with Python
 
 * Location: SAM 0202
 * Time: MW 3:00 - 5:30 pm
-* Dates:  9/26/2016 - 12/15/2016
+* Dates:  01/04/2017 - 03/22/2017
 * Instructor: Brenden West | brenden.west@seattlecolleges.edu | 206-552-9795
 * Credits: 5
 * Prerequisites: MAT 98 (Intermediate Algebra) with 2.0 or better
@@ -21,7 +21,7 @@ This class introduces basic concepts and techniques of computer science & progra
 
 **Required Materials**
 
-We will use "Python Programming: an introduction to computer science" by John Zelle. Franklin, Beedle & Associates Inc. 2nd edition, as our primary text. Additional readings will be made available on the class pages in Canvas. 
+Readings will draw from http://www.tutorialspoint.com/python/ and "Python Programming: an Introduction to Computer Science" by John Zelle. Franklin, Beedle & Associates Inc. 2nd edition. The Zelle book is optional, but an excellent reference with exercises and chapter summaries.
 
 Students will also need the following:
 
@@ -47,11 +47,13 @@ Each week, we'll cover a different topic, building on the previous week's work. 
 
 **Grading**
 
-Grades will be based on weekly assignments, 2 quizzes, and a final exam.
+Grades will be based on weekly assignments (80%), 3 quizzes (15%), and class participation (5%).
 
-Weekly assignments will be posted on Canvas each Wednesday and are designed to exercise the skills and concepts covered that week. Assignments are due by the start of class on the following Monday, and late assignments will be automatically marked down by 20%. 
+Weekly assignments will be posted on Canvas each Wednesday and are designed to exercise the skills and concepts covered that week. Assignments are due by the start of class on the following Monday, and late assignments will be automatically marked down by 20%.   
 
-There will also be 2 quizzes and a final exam. Quizzes will be administered via Canvas and must be completed during a specified time frame to receive credit. 
+You may discuss how to approach a problem with other students in the class, but your submission must be your own work. Code submissions that are substantially identical would be considered cheating and subject to a markdown penalty.
+
+Quizzes will be administered via Canvas and must be completed during the specified time frame to receive credit.
 
 **Resources**
 
@@ -62,8 +64,14 @@ There will also be 2 quizzes and a final exam. Quizzes will be administered via 
 * http://greenteapress.com/wp/think-python-2e/ 
 * http://stackoverflow.com/documentation/python/topics 
 * http://codingbat.com/python 
+
+**Online Development**
 * https://www.pythonanywhere.com/
 * https://c9.io/ 
 
 Note - Seattle Public Library provides free access to many technical reference books at:
 https://ezproxy.spl.org/login?url=http://proquestcombo.safaribooksonline.com/?uicode=spl 
+
+**ADA Accessibility**
+
+Students with documented disabilities requesting class accommodations, requiring special arrangements in case of building evacuation, or have emergency medical information the instructor should know about are asked to contact the Disability Support Services office (DSS) in Rm. BE 1112. Once the disability is verified with DSS you will be given a letter of accommodation to be handed to your instructor.
