@@ -1,9 +1,7 @@
 **Reading**
 
-- Zelle, Chapter 4 - Graphics Programming
-- [http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter04.ppt](http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter04.ppt)
-
- 
+- Zelle, Chapter 4 - Graphics Programming
+- http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter04.ppt
 
 **Summary**
 
