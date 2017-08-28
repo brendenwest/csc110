@@ -8,7 +8,9 @@ Data Collections
 * https://www.tutorialspoint.com/python/python_lists.htm 
 * https://www.tutorialspoint.com/python/python_dictionary.htm 
 * https://www.tutorialspoint.com/python/python_tuples.htm 
-* Slides - http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter11.ppt 
+
+** Slides** 
+* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter11.ppt 
 
 **Summary**
 
@@ -25,7 +27,6 @@ Data Collections
 * Lists are defined with data inside brackets:
  
     >>> mylist = [1,2,3,4]
-    
     >>> emptylist = []
 
 * A Python list can contain different data types
@@ -80,7 +81,7 @@ Data Collections
     >>> ‘a’ in list1
     True
 
-    >>> ‘x’ in list1
+    >>> 'x' in list1
     False
 
 * Other built-in Python methods
@@ -90,6 +91,8 @@ Data Collections
     - list<tuple>) - converts a tuple to a list
 
 **List Methods**
+
+Python lists have type-specific methods such as:
 
 * <list>.append() - add element to END of list
 * <list>.sort(<function>) - sort the list
@@ -130,13 +133,13 @@ Data Collections
 
 **Dictionary methods**
 
-* <key> in <dict> -
-* <dict>.keys() - return a sequence of keys
-* <dict>.values() - return a sequence of values
-* <dict>.items() - return a sequence of tuples representing key-value pairs
-* <dict>.get(<key>, <default>) - return the specified key or a default value
+* <key> in <dict> - returns True if <dict> contains <key>
+* <dict>.keys() - return a sequence of keys in <dict>
+* <dict>.values() - return a sequence of values in <dict>
+* <dict>.items() - return a sequence of tuples representing key-value pairs in in <dict>
+* <dict>.get(<key>, <default>) - return the value for a specified key or a default value
 * del <dict>[<key>] - delete the specified key
-* for <var> in <dict> - iterate over the keys
+* for <var> in <dict> - iterate over the keys in <dict>
 * <dict>.clear() - delete all dictionary items
 
 **Sorting**

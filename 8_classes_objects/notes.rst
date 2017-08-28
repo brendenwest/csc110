@@ -5,25 +5,18 @@ Objects & Classes
 **Reading**
 
 * Zelle, Chapter 10 - Objects & Classes
-* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter10.ppt (Links to an external site.) 
-* https://www.tutorialspoint.com/python/python_classes_objects.htm (Links to an external site.) (Links to an external site.)
+* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter10.ppt  
+* https://www.tutorialspoint.com/python/python_classes_objects.htm 
  
 **Summary**
 
-* What are classes?
 * What are objects?
+* What are classes?
 * Python class definition
 * Class methods
 * Getter & Setter methods
 * Class variables
 * Class inheritance
-
-**What are classes?**
-
-* A software 'class' models a real-world object
-* Defines the attributes (including default values) object instances will have
-* Can be defined in a python module with other classes, or in a standalone module
-* Names usually begin with an upper-case letter
 
 **What are objects?**
 
@@ -35,34 +28,40 @@ Objects & Classes
 * Objects are instances of a ‘class’
 * Each instance can have different valuies for properties (instance variables)
 * Objects allow encapsulation of all information about an individual item into a single variable
+* In Python, objects are defined by a 'class'
+
+**What are classes?**
+
+* A software 'class' models a real-world object
+* Defines the attributes (including default values) object instances will have
+* Can be defined in a python module with other classes, or in a standalone module
+* Names usually begin with an upper-case letter
+* Can have 'class variables' shared between instances of the class
+* In Python, names for special class methods are delimited with __
+
+  class Student:
+  
+    id = 0  # class variable
+  
+    # constructor method to create new class instance
+    def __init__(self,name,major):
+      self.name = name
+      self.major = major
+      Student.id += 1 # increment class variable
+      self.id = Student.id
+    
+    # print student name 
+    def displayName(self):
+      print("Name:",self.name)
+
+
 * Python invokes the class constructor to create a new object instance:
 
   student = Student('James','math')
 
-
-**Python class definition**
-
-Python classes are defined with a 'class' statement. Class names usually begin with an upper case character.
+**Constructor method**
 
 Classes may have a 'constructor' method to set initial values for class variables. 
-
-  class Person:
-
-  id = 0  # class variable
-
-  # constructor method to create new class instance
-  def __init__(self,name,role):
-    self.name = name
-    self.role = role
-    
-    Person.id += 1 # increment class variable
-    self.id = personId
-
-  # print person name 
-  def displayName(self):
-    print("Name:",self.name)
-
-**Constructor method**
 
 * Special class method to initialize an object instance with default values,
 * Python constructor methods are called __init__ 
@@ -71,11 +70,11 @@ Classes may have a 'constructor' method to set initial values for class variable
 
 **Class methods**
 
-Methods belonging to a class.
+  Methods belonging to a class.
 
 **Class variables**
 
-Variables shared between instances of the class
+  Variables shared between instances of the class
 
 **Getter & Setter methods**
 

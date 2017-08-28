@@ -32,14 +32,13 @@ if statements
 for example:
 
     len(<some_string>) < 3
-
     <string1> == <string2>
 
 **Operators**
 
 * <, <=, ==, >=, >, !=
 * remember that python uses '==' for comparison 
-* not returns the opposite of a subsequent boolean expression. For example:
+* 'not' returns the opposite of a subsequent boolean expression. For example:
     - not 1 == 1 # returns False because 1 == 1 returns True
     - not 1 == 2 # returns True because 1 == 2 returns False
 
