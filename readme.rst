@@ -5,7 +5,7 @@ CSC 110 - Intro to Programming with Python
 
 * Location: SAM 0202
 * Time: MW 3:00 - 5:30 pm
-* Dates:  01/04/2017 - 03/22/2017
+* Dates:  09/25/2017 - 12/14/2017
 * Instructor: Brenden West | brenden.west@seattlecolleges.edu | 206-552-9795
 * Credits: 5
 * Prerequisites: MAT 98 (Intermediate Algebra) with 2.0 or better
@@ -21,11 +21,11 @@ This class introduces basic concepts and techniques of computer science & progra
 
 **Required Materials**
 
-Readings will draw from http://www.tutorialspoint.com/python/ and "Python Programming: an Introduction to Computer Science" by John Zelle. Franklin, Beedle & Associates Inc. 2nd edition. The Zelle book is optional, but an excellent reference with exercises and chapter summaries.
+Readings will draw from http://www.tutorialspoint.com/python/ and "Python Programming: an Introduction to Computer Science" by John Zelle. Franklin, Beedle & Associates Inc. 3rd edition. The Zelle book is optional, but an excellent reference with exercises and chapter summaries.
 
 Students will also need the following:
 
-* A computer with Python 3.4 or later installed 
+* A computer with Python 3.6 or later installed 
 * A modern, syntax-highlighting text editor such as Sublime Text, Brackets, Komodo Edit, Atom
 
 Note - Students can use a free online Python coding environment such as https://c9.io/ or https://www.pythonanywhere.com/ rather than configure their own computer.
@@ -49,7 +49,7 @@ Each week, we'll cover a different topic, building on the previous week's work. 
 
 Grades will be based on weekly assignments (80%), 3 quizzes (15%), and class participation (5%).
 
-Weekly assignments will be posted on Canvas each Wednesday and are designed to exercise the skills and concepts covered that week. Assignments are due by the start of class on the following Monday, and late assignments will be automatically marked down by 20%.   
+Weekly assignments will be posted on Canvas each Wednesday and are designed to exercise the skills and concepts covered that week. Assignments are due by the start of class on the following Monday, and late assignments will be automatically marked down by 10%.   
 
 You may discuss how to approach a problem with other students in the class, but your submission must be your own work. Code submissions that are substantially identical would be considered cheating and subject to a markdown penalty.
 
@@ -57,17 +57,17 @@ Quizzes will be administered via Canvas and must be completed during the specifi
 
 **Resources**
 
-* http://mcsp.wartburg.edu/zelle/python/ppics2/index.html 
+* http://mcsp.wartburg.edu/zelle/python/ppics3/index.html 
+* http://greenteapress.com/wp/think-python-2e/ 
 * http://www.tutorialspoint.com/python/ 
 * https://www.python.org/
 * https://docs.python.org/3/ 
-* http://greenteapress.com/wp/think-python-2e/ 
 * http://stackoverflow.com/documentation/python/topics 
 * http://codingbat.com/python 
 
 **Online Development**
-* https://www.pythonanywhere.com/
 * https://c9.io/ 
+* https://www.pythonanywhere.com/
 
 Note - Seattle Public Library provides free access to many technical reference books at:
 https://ezproxy.spl.org/login?url=http://proquestcombo.safaribooksonline.com/?uicode=spl 
