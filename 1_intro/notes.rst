@@ -68,6 +68,7 @@ Week 1 - Intro to programming
 * Idle - integrated command-line and file-editing interface installed with Python
 * Python shell - allows running python commands 1 line at a time:
 ::
+
     $ python
     >>> print("testing")
     testing
@@ -81,17 +82,20 @@ We'll cover more advanced commands throughout the course, but some basic command
 
 * print - prints text to the screen or log file. Can combine multiple values into a single text message:
 ::
+
     print("Welcome")
     print("My name is:", name) 
 
 * assignment - assign some value to a variable for later use:
 ::
+
     age = 32
     name = "Dave"
     isActive = True
 
 * comments, which are not executed by the code interpreter, can take several forms:
 ::
+
     # this is a single-line comment
     
     """
