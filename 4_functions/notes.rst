@@ -6,7 +6,10 @@ Functions
 
 * Zelle, Chapter 6 - Functions
 * https://www.tutorialspoint.com/python/python_functions.htm 
-* Slides - http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter06.ppt 
+
+**Slides**
+
+* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter06.pptx 
 
 **Summary**
 
@@ -41,13 +44,25 @@ code that creates a function;
 
 * Parameters and return statement are optional
 * Parameters are function inputs and can be any valid Python data type
- 
+::
+
+ def printWelcome(name):
+    # function doesn't return a value
+    print("Welcome",name)
+    
+ def multiple(x,y):
+   # returns a value
+   return x * y
+  
 **Function usage**
 
-Functions are ‘called’ or ‘invoked’;
+Functions are ‘called’ or ‘invoked’ like this - <name>(<actual_parameters>):
+::
 
- <name>(<actual_parameters>)
+ printWelcome("dave") # has no return value
 
+ val = multiply(3,4) # return value assigned to a variable
+ 
 * Actual params are matched up to formal params by position, unless you use keyword parameters
 * When a function is called, the calling program suspends execution and hands control to the function
  
@@ -59,6 +74,17 @@ Functions are ‘called’ or ‘invoked’;
 * Parameters are passed to a function one of two ways:
  - By-value - Simple data-type parameters (int, string, float, bool) are passed as values. Original variables outside the function are unchanged by any code within the function
  - By-reference - Changes made to mutable objects (dictionaries, lists, arrays) passed as parameters may be visible to caller outside the function
+::
+
+ def capitalizeNames(names):
+   # capitalize each name in list
+   for i in range(len(names)):
+     names[i] = names[i].capitalize()
+     
+ names = ["jim","sarah"]
+ capitalizeNames(names)
+ print(names) # prints ["Jim","Sarah"]
+
  
 **Return values**
 
