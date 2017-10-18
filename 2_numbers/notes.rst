@@ -9,7 +9,7 @@ Week 2 - Numbers
 
 **Slides**
 
-* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter03.ppt
+* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter03.pptx
 
 **Summary**
 
@@ -29,47 +29,45 @@ Week 2 - Numbers
 * Data type determines valid values and operations that can be performed on an object
 
 type(<value) shows the datatype of a value
+::
 
   >>> type(3)
   <class 'int'>
- 
+::
+
   >>> type(3.0)
   <class 'float'>
 
 * Most mathematical calculations are very efficient with integers
 * Limits of float accuracy - float is only an approximation of real number value, so not ideal for exact calculations
 * Operations on ints produce ints & operations on floats produce floats, except division ( / ):
- 
+::
+
   >>> 3.0+4.0
   7.0
- 
   >>> 3+4
   7
- 
   >>> 3.0*4.0
   12.0
- 
   >>> 3*4
   12
- 
   >>> 10.0/3.0
   3.3333333333333335
- 
   >>> 10/3
   3.3333333333333335
 
 Python has a special operator for integer division:
+::
 
   >>> 10 // 3
   3
- 
   >>> 10.0 // 3.0
   3.0
 
 % operator - returns the remainder from a division operation
- 
+::
+
   10 % 2 = 0
- 
   10 % 3 = 1 # 10 / 3 = 3 remainder 1
 
 * Limitations - how computers store numbers
@@ -80,16 +78,14 @@ Python has a special operator for integer division:
 * Type conversion & rounding
  - In mixed-type expressions, python converts ints to floats, to avoid losing information
  - You can also use explicit type conversion:
+::
 
   >>> float(22//5)
   4.0
- 
   >>> int(4.5)
   4
- 
   >>> int(3.9)
   3
- 
   >>> round(3.9)
   4
 
@@ -110,6 +106,7 @@ Some common Python numeric functions:
 - sqrt(x) - square root of x
 
 Python programs have to import the math library before using these methods:
+::
 
  import math
  # calculate square root
@@ -119,33 +116,37 @@ Python programs have to import the math library before using these methods:
 **Number Sequences**
 
 In Python, a sequence of numbers can be represented explicitly:
+::
 
  nums = [0, 1, 2, 3, 4, 5]
 
 or logically as a 'range' of numbers in this form - range(<start>, <end>). For example:
+::
 
  nums = range(0,6) # 0 is start number, 6 is end number
  nums = range(6)
 
- - the 'end' number isn't included in the sequence.
- - start number can be omitted if starting from zero
+- the 'end' number isn't included in the sequence.
+- start number can be omitted if starting from zero
 
 Ranges can increment by some number other than 1 - e.g.
+::
 
   >>> range(0,10,2)
   [0, 2, 4, 6, 8]
- 
   >>> range(6,1,-1)
   [6, 5, 4, 3, 2]
 
 **Loops**
 
 Programs can use loops to perform the same operation on a sequence of numbers:
+::
 
  for <variable> in <sequence>:
    <body>
 
 For example:
+::
 
  import math
  for num in range(10)
@@ -155,6 +156,7 @@ For example:
 - <body> can be any number of python commands, executed once for each value in the sequence 
 
 Loops sometimes involve an 'accumulator' variable, defined before starting the loop:
+::
 
  # calculate 6!
  fact = 1
@@ -165,7 +167,8 @@ Loops sometimes involve an 'accumulator' variable, defined before starting the l
  fact = 1
  for factor in range(2,n+1):
   fact = fact * factor
- 
+::
+
  # calculate average
  grades = eval(input("Enter grades: "))  # user can enter comma-separated list of grades
  total = 0 
