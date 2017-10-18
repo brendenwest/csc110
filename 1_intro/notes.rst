@@ -10,8 +10,8 @@ Week 1 - Intro to programming
 
 **Slides**
 
-* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter01.ppt 
-* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter02.ppt 
+* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter01.pptx 
+* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter02.pptx 
 
 **Class overview**
 
@@ -65,23 +65,48 @@ Week 1 - Intro to programming
 **Running Python**
 
 * local -v- cloud (C9, PythonAnywhere)
-* Python shell - allows running python commands 1 line at a time
-* Idle - similar to Python shell, but can save commands to a file for re-use
+* Idle - integrated command-line and file-editing interface installed with Python
+* Python shell - allows running python commands 1 line at a time:
+::
+    $ python
+    >>> print("testing")
+    testing
+    >>> age = 32
+    >>> age
+    32
 
-Comments - not executed by the code interpreter
-# this is a comment
+Python programs are composed of one or more commands contained in a plain text file saved with a .py extension.
 
-"""
-This is a multi-line comment
-because it's on two lines
-"""
+We'll cover more advanced commands throughout the course, but some basic commands you'll use:
 
-* Statements
-* Assignment 
+* print - prints text to the screen or log file. Can combine multiple values into a single text message:
+::
+    print("Welcome")
+    print("My name is:", name) 
+
+* assignment - assign some value to a variable for later use:
+::
+    age = 32
+    name = "Dave"
+    isActive = True
+
+* comments, which are not executed by the code interpreter, can take several forms:
+::
+    # this is a single-line comment
+    
+    """
+    This is a multi-line comment
+    because it's on two lines
+    """
+
 * Basic data types
     - int
     - float
-* Modules - Python scripts or modules are saved as text files with .py extension
+    - bool
+    - character
+
+* Python scripts or modules are saved as text files with .py extension
+* Python uses indents to define program structure. Number of tabs or spaces at the start of a command line are very important.
 
 **Programming steps**
 
