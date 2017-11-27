@@ -60,10 +60,10 @@ Quizzes will be administered via Canvas and must be completed during the specifi
 * http://mcsp.wartburg.edu/zelle/python/ppics3/index.html 
 * http://greenteapress.com/wp/think-python-2e/ 
 * http://www.tutorialspoint.com/python/ 
+* https://campus.datacamp.com/courses/intro-to-python-for-data-science/  
 * https://www.python.org/
 * https://docs.python.org/3/ 
 * http://stackoverflow.com/documentation/python/topics 
-* http://codingbat.com/python 
 
 **Online Development**
 * https://c9.io/ 
