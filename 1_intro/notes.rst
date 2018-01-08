@@ -34,7 +34,7 @@ Week 1 - Intro to programming
 * Programming is the art of writing programs, and a fundamental part of computer science
 * Also a form of expression. Programming can be fun.
  
-**Computer hardware**
+**Computer hardware terms**
 
 * CPU - central processing unit carries out all basic data operations
 * GPU - graphics processing unit. Similar to CPU, but optimized for operations typical for graphics
@@ -57,16 +57,16 @@ Week 1 - Intro to programming
 
 **Why Python**
 
-* readable,
+* human readable,
 * easy to set up and run interactively,
 * class-based & object oriented
 * Open-source w/ large ecosystem of specialized libraries
  
 **Running Python**
 
-* local -v- cloud (C9, PythonAnywhere)
+* local -v- cloud : Python can be installed and run on a local PC, or via a cloud-hosted service such as Cloud9 or PythonAnywhere
 * Idle - integrated command-line and file-editing interface installed with Python
-* Python shell - allows running python commands 1 line at a time:
+* Python shell - allows running python commands one line at a time:
 ::
 
     $ python
@@ -75,6 +75,8 @@ Week 1 - Intro to programming
     >>> age = 32
     >>> age
     32
+
+**Python programs**
 
 Python programs are composed of one or more commands contained in a plain text file saved with a .py extension.
 
@@ -86,30 +88,38 @@ We'll cover more advanced commands throughout the course, but some basic command
     print("Welcome")
     print("My name is:", name) 
 
-* assignment - assign some value to a variable for later use:
+Note - by default, each *print* command prints a new line of text. You can override this behavior by setting a custom *end* character:
+::
+
+    print("My name is:", name, end=" ")
+    
+* assignment - assign value to a variable for later use:
 ::
 
     age = 32
     name = "Dave"
     isActive = True
 
-* comments, which are not executed by the code interpreter, can take several forms:
+* comments are not executed by the code interpreter and can take several forms:
 ::
 
     # this is a single-line comment
     
     """
     This is a multi-line comment
-    because it's on two lines
+    that spans two lines
     """
 
 * Basic data types
+Python supports several primitive data types for storing values:
+
     - int
     - float
     - bool
     - character
 
 * Python scripts or modules are saved as text files with .py extension
+
 * Python uses indents to define program structure. Number of tabs or spaces at the start of a command line are very important.
 
 **Programming steps**
