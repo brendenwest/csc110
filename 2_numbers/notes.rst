@@ -6,9 +6,6 @@ Week 2 - Numbers
 
 * Zelle, Chapter 3 - Computing with Numbers
 * https://www.tutorialspoint.com//python/python_numbers.htm
-
-**Slides**
-
 * http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter03.pptx
 
 **Summary**
@@ -16,9 +13,9 @@ Week 2 - Numbers
 * Numeric data types
 * Numeric operators
 * Python Math library
-* Ranges & loops
 * How computers store numbers
 * Type conversion & rounding
+* Ranges & loops
 
 **Notes**
 
@@ -28,7 +25,7 @@ Week 2 - Numbers
 * int & float stored differently in computers
 * Data type determines valid values and operations that can be performed on an object
 
-type(<value) shows the datatype of a value
+type(<value>) shows the datatype of a value:
 ::
 
   >>> type(3)
@@ -123,7 +120,7 @@ In Python, a sequence of numbers can be represented explicitly:
 or logically as a 'range' of numbers in this form - range(<start>, <end>). For example:
 ::
 
- nums = range(0,6) # 0 is start number, 6 is end number
+ nums = range(0,6)  # 0 is start number, 6 is end number
  nums = range(6)
 
 - the 'end' number isn't included in the sequence.

@@ -6,9 +6,6 @@ Week 3 - Strings & Files
 
 * Zelle, Chapter 5 - Sequences, Strings, Lists & Files
 * https://www.tutorialspoint.com/python/python_strings.htm 
-
-**Slides**
-
 * Slides - http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter05.pptx
 
 **Summary**
@@ -25,7 +22,7 @@ Week 3 - Strings & Files
 
 * Text is represented by the String data type
 * Strings are delimited by quotes or apostrophes - e.g. ‘This is text’
-* Quotes in text are escaped with \ - e.g. ‘We\re excited’
+* Quotes in text are escaped with \ - e.g. 'We\re excited'
 * Strings are case sensitive
 * Python input() command returns a string by default::
 
@@ -40,42 +37,54 @@ Week 3 - Strings & Files
     >>> name[0]
     'j'
 
-* The last character of a string is at index of length-1
+* The last character of a string has an index of length-1
 * len(<string>) returns the number of characters in the string
 ::
+
     >>> len(name)
     5
 
  
 **Substrings**
  
-* Substrings can be accessed by ‘slicing’ - <string>[<start>:<end>]
+* Substrings can be accessed by ‘slicing’ with this basic syntax:
 ::
 
-    >>>name[1:3]
+    <string>[<start>:<end>]
+
+For example:
+::
+
+    >>> name[1:3]
     'am'
 
-* the substring contains characters up to, but NOT including 'end' number
+* the substring contains characters up to but NOT including 'end' number
 * If either expression is omitted, the start or end of the string is used
 ::
 
-    >>>name[:3]
+    >>> name[:3]
     'jam'
-    >>>name[2:]
+    >>> name[2:]
     'mes'
  
 
 **Concatenation** - Strings can be combined with +
 ::
 
-    >>>'spam' + 'eggs'
+    >>> 'spam' + 'eggs'
     'spameggs'
 
 **Repetition** - Strings can be repeated with *
 ::
 
-    >>>3*'spam'
+    >>> 3*'spam'
     'spamspamspam'
+
+**Membership** - Python provides a simple way to check if a string contains another string:
+::
+
+    >>> name = 'james'
+    >>> 'Z' in name  # returns False because 'james' doesn't contain 'Z'
 
 **String methods** - Python provides many string-specific methods:
 
@@ -100,8 +109,8 @@ Week 3 - Strings & Files
 
 * s.count(<sub>) - count occurrences of <sub> in string s
 * s.find(<sub>) - return the first position of <sub> in string s
-* s.join([<sub>, <sub>]) - join a list of substrings, using s as separator
-* s.split(<sub>) - split s into a list of substrings based on <sub>
+* s.join([<sub>, <sub>]) - join a list of substrings, using string s as separator
+* s.split(<sub>) - split string s into a list of substrings based on <sub>
 ::
 
     sentence = 'the quick brown fox'
@@ -160,6 +169,7 @@ Strings can be formatted with a ‘template’ string that has placeholders into
  
 * Files are large strings
 * Lines in files are separated by newline ( \n ) characters
+* After completing read/write operations, the file should be closed
 * Files must be opened before programs can read from or write to them:
 
     <filevar> = open(<filename>, <mode>)
@@ -167,9 +177,11 @@ Strings can be formatted with a ‘template’ string that has placeholders into
 
     myFile = open('myfile.txt', 'r')
 
+**Note** - file name must include it's location relative to the current python program, or an absolute file path. The above example assumes both program and text file are in the same directory.
+
 * Reading: after opening a file, you can read file contents with several different commands:
-    - file.read() - reads entire file into a string
-    - file.readlines() - returns the entire file into a list of lines
+    - file.read() - reads **entire** file into a string
+    - file.readlines() - returns a **list** of all lines in the file
     - file.readline() - reads the next line as a string. Moves ‘pointer’ so subsequent commands operate only on remaining lines.
     
 Programs can iterate through all lines in a file:
@@ -180,12 +192,10 @@ Programs can iterate through all lines in a file:
         print(line)
     inFile.close()
 
-
-After completing read/write operations, the file must be closed:
-
 * Writing
     - Opening a file for writing prepares it to receive data. It creates a file if one doesn’t exist, and overwrites any existing file contents:
 ::
 
     outfile = open('myfile.txt', 'w')
     print(<expression>, file=outfile)
+    outfile.close()

@@ -13,8 +13,9 @@ Week 1 - Intro to programming
 * http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter01.pptx 
 * http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter02.pptx 
 
-**Class overview**
+**Summary**
 
+* Class overview
 * What is computer science?
 * Computer programming overview
 * Programming languages overview
@@ -23,9 +24,9 @@ Week 1 - Intro to programming
 **What is computer science?**
 
 * Design, Analysis, Experimentation
-* Design is the process of creating an algorithm - a step-by-step process for solving a problem with computation
-* Analysis is the process of examining algorithms & problems mathematically
-* Experimentation is the process of testing a system for possible solutions or verifying that a solution works
+* **Design** is the process of creating an algorithm - a step-by-step process for solving a problem with computation
+* **Analysis** is the process of examining algorithms & problems mathematically
+* **Experimentation** is the process of testing a system for possible solutions or verifying that a solution works
  
 **What are programs?**
 
@@ -113,10 +114,10 @@ Note - by default, each *print* command prints a new line of text. You can overr
 * Basic data types
 Python supports several primitive data types for storing values:
 
-    - int
-    - float
-    - bool
-    - character
+    - int - whole integer numbers
+    - float - floating point numbers w/ decimals
+    - bool - True or False values
+    - character - alpha-numeric characters
 
 * Python scripts or modules are saved as text files with .py extension
 
@@ -132,7 +133,8 @@ Python supports several primitive data types for storing values:
 * Implement the design (actual code)
 * Test & debug
 
-Meta-language - method for showing generic syntax of a statement. E.g.:
+**Meta-language** - method for showing generic syntax of a statement. E.g.:
+::
 
     print(<expr>, <expr>)
     <variable> = <expr>
