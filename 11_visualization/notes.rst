@@ -1,3 +1,7 @@
+====
+Data Visualization
+====
+
 **Reading**
 
 - https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py 
@@ -17,8 +21,7 @@ Presenting data visually often helps people to see and understand patterns in th
 
 Python offers several very powerful tools for data visualization and is widely used in the sciences and business for data analysis. Increasingly, knowing how to present data visually is a key technical skill.
 
-
-**Visualization in Python**
+**matplotlib**
 
 matplotlib is a key python module that supports a wide range of data plots & charts. It's packaged with the standard python and includes several key sub-libraries. pyplot is one sub-library commonly used for plotting data. 
 
