@@ -17,7 +17,7 @@ Loops
 * Nested loops
  
 **Basic loop**
-
+::
   for <var> in <sequence>:
     <body>
 
@@ -27,7 +27,7 @@ Loops
 * Can use an ‘accumulator’ variable initialized outside the loop
  
 **Counted loop**
-
+::
   for <var> in range(n):
     <body>
 
@@ -35,7 +35,7 @@ Loops
  
 
 **Indefinite (while) loop**
-
+::
   while <condition>:
     <body>
 
@@ -47,9 +47,15 @@ Loops
 **Sentinel loop**
 
 Loop continues until reaching a special value (sentinel)
- 
+::
+  stop = 5
+  for i in range(10):
+    print(i)
+    if i == stop:
+      break
+    
 **Nested loops**
-
+::
   for <var> in <sequence>:
     for <var2> in <sequence2>:
       <body>
@@ -58,7 +64,7 @@ Loop continues until reaching a special value (sentinel)
 **Break statement**
 
 terminates loop and transfers to command after the loop
-
+::
   for <var> in <sequence>:
     if <expr>:
       break
