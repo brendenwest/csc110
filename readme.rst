@@ -3,9 +3,9 @@ CSC 110 - Intro to Programming with Python
 
 **Class Details**
 
-* Location: SAM 0202
-* Time: MW 3:00 - 5:30 pm
-* Dates:  09/25/2017 - 12/14/2017
+* Location: BW 3174
+* Time: T,TH 3:00 - 5:30 pm
+* Dates:  9/24/2018 - 12/12/2018
 * Instructor: Brenden West | brenden.west@seattlecolleges.edu | 206-552-9795
 * Credits: 5
 * Prerequisites: MAT 98 (Intermediate Algebra) with 2.0 or better
@@ -21,18 +21,18 @@ This class introduces basic concepts and techniques of computer science & progra
 
 **Required Materials**
 
-Readings will draw from http://www.tutorialspoint.com/python/ and "Python Programming: an Introduction to Computer Science" by John Zelle. Franklin, Beedle & Associates Inc. 3rd edition. The Zelle book is optional, but an excellent reference with exercises and chapter summaries.
+Readings will draw from http://www.tutorialspoint.com/python/ and http://greenteapress.com/wp/think-python-2e/. A hardcopy of Think Python is optional, but an excellent reference with exercises and chapter summaries.
 
 Students will also need the following:
 
 * A computer with Python 3.6 or later installed 
 * A modern, syntax-highlighting text editor such as Sublime Text, Brackets, Komodo Edit, Atom
 
-Note - Students can use a free online Python coding environment such as https://c9.io/ or https://www.pythonanywhere.com/ rather than configure their own computer.
+Note - Students can use a free online Python coding environment such as https://aws.amazon.com/cloud9/ or https://www.pythonanywhere.com/ rather than configure their own computer.
 
 **Class Structure and Topics**
 
-Each week, we'll cover a different topic, building on the previous week's work. In general, we will cover new material in Monday lectures, and Wednesday labs will focus on practicing what you’ve learned. We will cover the following topics, although the order and precise list is subject to revision:
+Each week, we'll cover a different topic, building on the previous week's work. In general, we will cover new material in Tuesday lectures and use Wednesday labs to practice what you’ve learned. We will cover the following topics, although the order and precise list is subject to revision:
 
 1. Computer Science, Programming, Setting up Python
 #. Basics of Python programs
@@ -44,6 +44,7 @@ Each week, we'll cover a different topic, building on the previous week's work. 
 #. Data collections
 #. Objects & classes
 #. Graphics
+#. Plotting data
 
 **Grading**
 
@@ -57,19 +58,19 @@ Quizzes will be administered via Canvas and must be completed during the specifi
 
 **Resources**
 
-* http://mcsp.wartburg.edu/zelle/python/ppics3/index.html 
 * http://greenteapress.com/wp/think-python-2e/ 
 * http://www.tutorialspoint.com/python/ 
 * https://campus.datacamp.com/courses/intro-to-python-for-data-science/  
 * https://www.python.org/
 * https://docs.python.org/3/ 
 * http://stackoverflow.com/documentation/python/topics 
+* http://mcsp.wartburg.edu/zelle/python/ppics3/index.html 
 
 **Online Development**
-* https://c9.io/ 
+* https://aws.amazon.com/cloud9/ 
 * https://www.pythonanywhere.com/
 
-Note - Seattle Public Library provides free access to many technical reference books at:
+**Note** - Seattle Public Library provides free access to many technical reference books at:
 https://ezproxy.spl.org/login?url=http://proquestcombo.safaribooksonline.com/?uicode=spl 
 
 **ADA Accessibility**
