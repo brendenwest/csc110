@@ -3,7 +3,7 @@ CSC 110 - Intro to Programming with Python
 
 **Class Details**
 
-* Location: BW 3174
+* Location: BE 3174
 * Time: T,TH 3:00 - 5:30 pm
 * Dates:  9/24/2018 - 12/12/2018
 * Instructor: Brenden West | brenden.west@seattlecolleges.edu | 206-552-9795
