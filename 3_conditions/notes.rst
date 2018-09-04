@@ -4,8 +4,7 @@ Conditional Logic
 
 **Reading**
 
-* Zelle, Chapter 7 - Decision Structures
-* Slides http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter07.ppt 
+* http://greenteapress.com/thinkpython2/html/thinkpython2006.html 
 * https://www.tutorialspoint.com/python/python_decision_making.htm 
 * https://www.tutorialspoint.com/python/python_exceptions.htm 
 
@@ -40,7 +39,7 @@ for example:
 
 * <, <=, ==, >=, >, !=
 * remember that python uses '==' for comparison 
-* 'not' returns the opposite of a subsequent boolean expression. For example:
+* 'not' returns the opposite of a boolean expression. For example:
     - not 1 == 1 # returns False because 1 == 1 returns True
     - not 1 == 2 # returns True because 1 == 2 returns False
 

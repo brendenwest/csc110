@@ -1,12 +1,13 @@
 ========================
-Week 3 - Strings & Files
+Strings & Files
 ========================
 
 **Reading**
 
-* Zelle, Chapter 5 - Sequences, Strings, Lists & Files
+* Think Python, Chapter 8 - http://greenteapress.com/thinkpython2/html/thinkpython2009.html
+* Think Python, Chapter 14.2 & 14.4 - http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 * https://www.tutorialspoint.com/python/python_strings.htm 
-* Slides - http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter05.pptx
+
 
 **Summary**
 
@@ -25,7 +26,7 @@ Week 3 - Strings & Files
 * Quotes in text are escaped with \ - e.g. 'We\re excited'
 * Strings are case sensitive
 * Python input() command returns a string by default::
-
+::
     phrase = input("enter a phrase: ")
 
 **Strings as sequences**
@@ -40,7 +41,6 @@ Week 3 - Strings & Files
 * The last character of a string has an index of length-1
 * len(<string>) returns the number of characters in the string
 ::
-
     >>> len(name)
     5
 
@@ -49,12 +49,10 @@ Week 3 - Strings & Files
  
 * Substrings can be accessed by ‘slicing’ with this basic syntax:
 ::
-
     <string>[<start>:<end>]
 
 For example:
 ::
-
     >>> name[1:3]
     'am'
 
@@ -197,5 +195,5 @@ Programs can iterate through all lines in a file:
 ::
 
     outfile = open('myfile.txt', 'w')
-    print(<expression>, file=outfile)
+    print('this text will be written to the file', file=outfile)
     outfile.close()

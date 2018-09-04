@@ -3,10 +3,10 @@ Functions
 ====
 
 **Reading**
-
-* Zelle, Chapter 6 - Functions
+* Think Python, Chapter 3 - http://greenteapress.com/thinkpython2/html/thinkpython2004.html 
+* Think Python, Chapter 6 - http://greenteapress.com/thinkpython2/html/thinkpython2007.html
 * https://www.tutorialspoint.com/python/python_functions.htm 
-* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter06.pptx 
+
 
 **Summary**
 

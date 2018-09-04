@@ -4,9 +4,7 @@ Week 2 - Numbers
 
 **Reading**
 
-* Zelle, Chapter 3 - Computing with Numbers
 * https://www.tutorialspoint.com//python/python_numbers.htm
-* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter03.pptx
 
 **Summary**
 
@@ -15,7 +13,6 @@ Week 2 - Numbers
 * Python Math library
 * How computers store numbers
 * Type conversion & rounding
-* Ranges & loops
 
 **Notes**
 
@@ -133,47 +130,3 @@ Ranges can increment by some number other than 1 - e.g.
   [0, 2, 4, 6, 8]
   >>> range(6,1,-1)
   [6, 5, 4, 3, 2]
-
-**Loops**
-
-Programs can use loops to perform the same operation on a sequence of numbers:
-::
-
- for <variable> in <sequence>:
-   <body>
-
-For example:
-::
-
- import math
- for num in range(10)
-     print("Square root of ", num, "=", math.sqrt(num))
-
-- each value in the sequence is assigned to 'num' one at a time,
-- <body> can be any number of python commands, executed once for each value in the sequence 
-
-Loops sometimes involve an 'accumulator' variable, defined before starting the loop:
-::
-
- # calculate 6!
- fact = 1
- for factor in [2, 3, 4, 5, 6]:
-  fact = fact * factor
-
- # calculate n!
- fact = 1
- for factor in range(2,n+1):
-  fact = fact * factor
-::
-
- # calculate average
- grades = eval(input("Enter grades: "))  # user can enter comma-separated list of grades
- total = 0 
- for grade in grades:
-   total = total + grade
- average = total/len(grades) # use 'len()' method to get number of grade entries
- print("Average grade is",round(average,1))
-
-* accumulator value is updated with each pass through the loop
-* Loop values can be defined by a list - e.g.  [2, 3, 4, 5, 6]
-* Loop values can be defined by a range - e.g. range(2,7)

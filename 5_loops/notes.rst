@@ -4,9 +4,8 @@ Loops
 
 **Reading**
 
-* Zelle, Chapter 8 - Loop Structures
+* Think Python, Chapter 7 - http://greenteapress.com/thinkpython2/html/thinkpython2008.html
 * https://www.tutorialspoint.com/python/python_loops.htm 
-* Slides - http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter08.ppt 
 
 **Summary**
 

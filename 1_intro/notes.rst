@@ -1,17 +1,13 @@
 =====
-Week 1 - Intro to programming
+Intro to programming
 =====
 
 **Reading**
 
-* Zelle, Chapter 1 - Computers & Programming
-* Zelle, Chapter 2 - Writing Simple Programs
+* Think Python, Chapter 1 - http://greenteapress.com/thinkpython2/html/thinkpython2002.html 
+* Think Python, Chapter 2 - http://greenteapress.com/thinkpython2/html/thinkpython2003.html
 * https://www.tutorialspoint.com/python/python_basic_syntax.htm  
 
-**Slides**
-
-* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter01.pptx 
-* http://mcsp.wartburg.edu/zelle/python/ppics3/slides/Chapter02.pptx 
 
 **Summary**
 
@@ -100,6 +96,10 @@ Note - by default, each *print* command prints a new line of text. You can overr
     age = 32
     name = "Dave"
     isActive = True
+
+* Python's input() command returns a string by default:
+::
+    phrase = input("enter a phrase: ")
 
 * comments are not executed by the code interpreter and can take several forms:
 ::

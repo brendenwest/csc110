@@ -4,8 +4,9 @@ Objects & Classes
 
 **Reading**
 
-* Zelle, Chapter 10 - Objects & Classes
-* http://mcsp.wartburg.edu/zelle/python/ppics2/slides/Chapter10.ppt  
+* Think Python, Chapter 15 - http://greenteapress.com/thinkpython2/html/thinkpython2016.html 
+* Think Python, Chapter 17 - http://greenteapress.com/thinkpython2/html/thinkpython2018.html  
+* Think Python, Chapter 18 - http://greenteapress.com/thinkpython2/html/thinkpython2019.html 
 * https://www.tutorialspoint.com/python/python_classes_objects.htm 
  
 **Summary**
@@ -44,6 +45,7 @@ Objects & Classes
     def __init__(self,name,major):
       self.name = name
       self.major = major
+      
       Student.id += 1 # increment class variable
       self.id = Student.id
     
@@ -127,3 +129,47 @@ Alternatively, a program can import specific module classes. In this case, modul
   from math import pi, fabs
   print(pi)
   print(fabs(-1))
+  
+**Inheritance**
+
+* Avoids duplication of code
+* A class (subclass) can inherit attributes from another class (superclass)
+* Subclasses can share attributes inherited from the superclass
+* Subclasses can have unique attributes not shared with other subclasses
+* Subclasses can ‘override’ attributes or methods inherited from the superclass
+::
+  class Person:
+  
+      def __init__(self, first, last):
+          self.firstname = first
+          self.lastname = last
+  
+      def __repr__(self):
+          return "{0} {1}".format(self.firstname, self.lastname)
+  
+  class Employee(Person):
+  
+      def __init__(self, first, last, staffId):
+          super().__init__(first, last)
+          self.staffId = staffId
+  
+      def __repr__(self):
+          return "{0}, staffId={1}".format(super().__repr__(), self.staffId)
+  
+  class Student(Person):
+  
+      def __init__(self, first, last, studentId):
+          super().__init__(first, last)
+          self.studentId = studentId
+  
+      def __repr__(self):
+          return "{0}, studentId={1}".format(super().__repr__(), self.studentId)
+
+
+person1 = Person("Marge", "Simpson") 
+employee1 = Employee("Homer", "Simpson", 1007)
+student1 = Student("Lisa", "Simpson", 123)
+
+print(person1) # prints "Marge Simpson"
+print(employee1) # prints "Homer Simpson, staffId=1007"
+print(student1) # prints "Lisa Simpson, studentId=123"
