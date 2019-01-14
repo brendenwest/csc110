@@ -9,6 +9,9 @@ Lists & Tuples
 * https://www.tutorialspoint.com/python/python_lists.htm 
 * https://www.tutorialspoint.com/python/python_tuples.htm 
 
+**Practice**
+
+* https://repl.it/community/classrooms/17929  (section 7)
 
 **Summary**
 

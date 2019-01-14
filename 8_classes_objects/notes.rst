@@ -45,9 +45,8 @@ Objects & Classes
     def __init__(self,name,major):
       self.name = name
       self.major = major
-      
-      Student.id += 1 # increment class variable
       self.id = Student.id
+      Student.id += 1 # increment class variable
     
     # print student name 
     def displayName(self):

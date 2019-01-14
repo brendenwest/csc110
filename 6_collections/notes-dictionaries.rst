@@ -10,6 +10,9 @@ Dictionaries & Sets
 * https://www.tutorialspoint.com/python/python_tuples.htm 
 * https://pythonspot.com/en/python-set/
 
+**Practice**
+
+* https://repl.it/community/classrooms/17929  (A.1 - A.8)
 
 **Summary**
 

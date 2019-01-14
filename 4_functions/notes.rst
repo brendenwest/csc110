@@ -32,7 +32,7 @@ Functions
 
 **Function definition**
 
-code that creates a function;
+Python functions have this general form:;
 ::
 
  def <name>(<formal_parameters>):
@@ -47,9 +47,6 @@ code that creates a function;
     # function doesn't return a value
     print("Welcome",name)
     
- printWelcome("dave")
- printWelcome("jim")
-   
  def multiple(x,y):
    # returns a value
    return x * y
@@ -60,6 +57,7 @@ Functions are ‘called’ or ‘invoked’ like this - <name>(<actual_parameter
 ::
 
  printWelcome("dave") # has no return value
+ printWelcome("jim")
 
  val = multiply(3,4) # return value assigned to a variable
  

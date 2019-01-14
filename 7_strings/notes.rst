@@ -8,6 +8,8 @@ Strings & Files
 * Think Python, Chapter 14.2 & 14.4 - http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 * https://www.tutorialspoint.com/python/python_strings.htm 
 
+**Practice**
+https://repl.it/community/classrooms/17929  (section 5)
 
 **Summary**
 

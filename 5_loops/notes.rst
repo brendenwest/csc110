@@ -7,6 +7,10 @@ Loops
 * Think Python, Chapter 7 - http://greenteapress.com/thinkpython2/html/thinkpython2008.html
 * https://www.tutorialspoint.com/python/python_loops.htm 
 
+**Practice**
+
+* https://repl.it/community/classrooms/17929 (sections 4 & 6) 
+
 **Summary**
 
 * Basic loops
