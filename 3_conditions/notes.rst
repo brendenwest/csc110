@@ -8,50 +8,70 @@ Conditional Logic
 * https://www.tutorialspoint.com/python/python_decision_making.htm 
 * https://www.tutorialspoint.com/python/python_exceptions.htm 
 
+**Practice**
+
+* https://repl.it/community/classrooms/17929 (section 3)
+
 **Summary**
 
+* Boolean expressions
 * If statements
-* Boolean statements
 * Two-way & multi-way if statements
 * Nested decisions
 * Exception handling
 
-**Decision structures**
-- allow a program to execute different sequences of instructions for different cases.
+**Boolean Expressions**
 
-* basic if statements have this structure:
+Conditional statements allow a program to execute different instructions for different conditions. Conditions use boolean expressions that evaluate to True or False. For example:
+::
+    1 < 3 # evaluates to True
+    1 > 3 # evaluates to False
+    'Dave' == 'dave' # False because upper & lower-case strings are different
+
+Conditional expressions can use these **comparison operators**:
+
+* <, <=, ==, >=, >, !=
+* remember to use '==' for comparison
+* The ! operator negates the expression. For example:
+::
+    'Dave' != 'dave' # True
+
+**Compound expressions** can be formed with and, or, not. For example:
+::
+    age < 18 and gender == 'female' # True if both expressions are true
+    age < 18 or gender == 'female' # True if either of the expressions is true 
+
+* not - returns the opposite of a subsequent boolean expression. For example:
+::
+    not 1 == 1 # returns False because 1 == 1 returns True
+    not 1 == 2 # returns True because 1 == 2 returns False
+
+
+**Conditional statements**
+Allow a program to execute different sequences of instructions for different cases. 
+
+* Basic conditional statements have this structure:
 ::
 
     if <condition>:
         <body>
 
-**Conditional statements** - evaluate to **True** or **False**
+    if age < 18:
+        print("sorry, you can't vote")
 
-    <expr> <relational_operator> <expr>
 
-for example:
-::
-    name = "dave"
-    len(name) < 3   # evaluates to False
-    name == 'dave'  # evaluates to True
-
-**Comparison Operators**
-
-* <, <=, ==, >=, >, !=
-* remember that python uses '==' for comparison 
-* 'not' returns the opposite of a boolean expression. For example:
-    - not 1 == 1 # returns False because 1 == 1 returns True
-    - not 1 == 2 # returns True because 1 == 2 returns False
-
-**Compound expressions** can be formed with **and**, **or**, **not**. For example:
-::
-    if age < 18 and gender == 'female': # both expressions must be true
-
-    if age < 18 or gender == 'female': # either of the expressions must be true 
-
-**Two-way** - mutually exclusive decisions
+**Two-way** - handle two mutually exclusive conditions:
 ::
     if <condition>:
+        <statements>
+    else:
+        <statements>
+
+**Multi-way** - Decision structures can have any number of conditions:
+::
+    if <condition>:
+        <statements>
+    elif <condition>:
         <statements>
     else:
         <statements>
@@ -63,22 +83,3 @@ for example:
         if <condition2>:
             <statements> # executed if condition1 & condition2 are true
 
-**Multi-way** - Decision blocks can have any number of conditional statements:
-::
-    if <condition>:
-        <statements>
-    elif <condition>:
-        <statements>
-    else:
-        <statements>
-
-**Exception handling** - used to gracefully catch & handle possible program errors.
-::
-    try:
-        <body>
-    except <ErrorType>:
-        <handler>
-
-* Body can have multiple statements
-* Can have multiple exception handlers for different errors
-* Can assign error to an object for use in handler
