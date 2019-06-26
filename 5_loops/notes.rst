@@ -34,13 +34,25 @@ Loops
   for <var> in range(n):
     <body>
 
+  for num in range(5):
+    print(num,' - ', num**2)
+    
 * <var> will have an integer value
- 
+
+::
+  names = ['dave','james','susan']
+  for name in names:
+    print(name)
 
 **Indefinite (while) loop**
 ::
   while <condition>:
     <body>
+    
+  count = 1
+  while count < 5:
+    print(count,' - ',count * 2)
+    count += 1
 
 * <body> statements executed as long as <condition> is True
 * <condition> can be one or more logical expressions
@@ -73,3 +85,11 @@ terminates loop and transfers to command after the loop
       break
     else:
      <body>
+     
+  names = ['dave','james','susan']
+  for name in names:
+    print(name)
+    if name == 'james':
+      print('- break')
+      break
+
