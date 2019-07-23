@@ -138,37 +138,36 @@ Alternatively, a program can import specific module classes. In this case, modul
 * Subclasses can ‘override’ attributes or methods inherited from the superclass
 ::
   class Person:
-  
+
       def __init__(self, first, last):
           self.firstname = first
           self.lastname = last
-  
+
       def __repr__(self):
           return "{0} {1}".format(self.firstname, self.lastname)
   
   class Employee(Person):
-  
+
       def __init__(self, first, last, staffId):
           super().__init__(first, last)
           self.staffId = staffId
-  
+
       def __repr__(self):
           return "{0}, staffId={1}".format(super().__repr__(), self.staffId)
   
   class Student(Person):
-  
+
       def __init__(self, first, last, studentId):
           super().__init__(first, last)
           self.studentId = studentId
-  
+
       def __repr__(self):
           return "{0}, studentId={1}".format(super().__repr__(), self.studentId)
 
+  person1 = Person("Marge", "Simpson") 
+  employee1 = Employee("Homer", "Simpson", 1007)
+  student1 = Student("Lisa", "Simpson", 123)
 
-person1 = Person("Marge", "Simpson") 
-employee1 = Employee("Homer", "Simpson", 1007)
-student1 = Student("Lisa", "Simpson", 123)
-
-print(person1) # prints "Marge Simpson"
-print(employee1) # prints "Homer Simpson, staffId=1007"
-print(student1) # prints "Lisa Simpson, studentId=123"
+  print(person1) # prints "Marge Simpson"
+  print(employee1) # prints "Homer Simpson, staffId=1007"
+  print(student1) # prints "Lisa Simpson, studentId=123"

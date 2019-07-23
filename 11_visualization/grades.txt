@@ -1,0 +1,9 @@
+joe schmoe,90,87,92,94
+jane doe,87,83,91,81
+gene simmons,87,73,78,74
+ace freley,64,59,72,68
+bono,0
+shoeless joe,90,87,92,94
+endoline joe,87,83,91,81
+joe cocker,90,87,92,94
+joe namath,64,59,72,68

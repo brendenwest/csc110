@@ -1,0 +1,2 @@
+nouns=swashbuckler,swab,captain,rapscallion,rascal,matey,creeper,billy goat,spike,mcstubby,mcmonkey,sparrow,gristle,seawolf,biscuit,crabcakes,dodger,killer
+adjectives=slippery,mad,mean,crazy,grubby,fancy pants,money buckets,peg leg,surly, stinky,plunderin,fish face,jolly,two toe,big lips,dirty locks,hook hand, shipwreck,one eye,red beard,blue bear,black beard,dead eye,lazy eye, stink breath,fat cheeks
