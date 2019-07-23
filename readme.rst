@@ -34,7 +34,7 @@ Note - Students can use a free online Python coding environment such as https://
 
 Each week, we'll cover a different topic, building on the previous week's work. In general, we will cover new material in Tuesday lectures and use Wednesday labs to practice what you’ve learned. We will cover the following topics, although the order and precise list is subject to revision:
 
-1. Computer Science, Programming, Setting up Python
+#. Computer Science, Programming, Setting up Python
 #. Basics of Python programs
 #. Computing with numbers 
 #. Strings & file I/O
