@@ -30,7 +30,7 @@ Students will also need the following:
 * A user account at https://repl.it/
 
 Note - 
-* Students can download `these interactive class notes<https://github.com/brendenwest/csc110/blob/master/csc110.ipynb>`_. and upload to https://colab.research.google.com to run them
+* Students can download `these interactive class notes <https://github.com/brendenwest/csc110/blob/master/csc110.ipynb>`_. and upload to https://colab.research.google.com to run them
 * Students can use a free online Python coding environment such as https://aws.amazon.com/cloud9/ or https://www.pythonanywhere.com/ rather than configure their own computer.
 
 **Class Structure and Topics**
